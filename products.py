@@ -1,6 +1,20 @@
 products = {
-    'Toothpaste': {'price': 2.99, 'description': 'Fluoride toothpaste for clean and healthy teeth.'},
-    'Shampoo': {'price': 5.99, 'description': 'Moisturizing shampoo for soft and shiny hair.'},
-    'Hand Soap': {'price': 1.99, 'description': 'Antibacterial hand soap for clean and germ-free hands.'},
-    'Body Lotion': {'price': 7.99, 'description': 'Hydrating body lotion for smooth and soft skin.'}
+    'Toothpaste': {'price': 30, 'remaining_qty': 100, 'weight': '100g', 'type': 'Fluoride toothpaste', 'brand': 'Colgate', 'description': 'Fluoride toothpaste for clean and healthy teeth. (Brand: Colgate)'},
+    'Shampoo': {'price': 100, 'remaining_qty': 50, 'weight': '500ml', 'type': 'Moisturizing shampoo', 'brand': 'Clinic Plus', 'description': 'Moisturizing shampoo for soft and shiny hair. (Brand: Clinic Plus)'},
+    'Hand Soap': {'price': 20, 'remaining_qty': 200, 'weight': '250ml', 'type': 'Antibacterial hand soap', 'brand': 'Dettol', 'description': 'Antibacterial hand soap for clean and germ-free hands. (Brand: Dettol)'},
+    'Toothbrush': {'price': 15, 'remaining_qty': 150, 'weight': '10g', 'type': 'Soft-bristled toothbrush', 'brand': 'Colgate', 'description': 'Soft-bristled toothbrush for gentle cleaning. (Brand: Colgate)'},
+    'Deodorant': {'price': 150, 'remaining_qty': 75, 'weight': '150ml', 'type': 'Long-lasting deodorant', 'brand': 'Nivea', 'description': 'Long-lasting deodorant for all-day freshness. (Brand: Nivea)'},
+    'Sunscreen': {'price': 200, 'remaining_qty': 40, 'weight': '100ml', 'type': 'SPF 30 sunscreen', 'brand': 'Lotus Herbals', 'description': 'SPF 30 sunscreen for protection against UV rays. (Brand: Lotus Herbals)'},
+    'Mouthwash': {'price': 100, 'remaining_qty': 100, 'weight': '250ml', 'type': 'Antiseptic mouthwash', 'brand': 'Listerine', 'description': 'Antiseptic mouthwash for fresh breath and healthy gums. (Brand: Listerine)'},
+    'Hair Oil': {'price': 50, 'remaining_qty': 200, 'weight': '200ml', 'type': 'Nourishing hair oil', 'brand': 'Parachute', 'description': 'Nourishing hair oil for healthy and shiny hair. (Brand: Parachute)'},
+    'Bath Soap': {'price': 20, 'remaining_qty': 250, 'weight': '100g', 'type': 'Gentle bath soap', 'brand': 'Dove', 'description': 'Gentle bath soap for clean and hydrated skin. (Brand: Dove)'},
+    'Talcum Powder': {'price': 50, 'remaining_qty': 100, 'weight': '100g', 'type': 'Refreshing talcum powder', 'brand': 'Pond\'s', 'description': 'Refreshing talcum powder for all-day freshness. (Brand: Pond\'s)'},
+    'Dish Soap': {'price': 50, 'remaining_qty': 80, 'weight': '500ml', 'type': 'Effective dish soap', 'brand': 'Vim', 'description': 'Effective dish soap for clean and spotless dishes. (Brand: Vim)'},
+    'Rice': {'price': 50, 'remaining_qty': 500, 'weight': '1kg', 'type': 'High-quality rice', 'brand': 'India Gate', 'description': 'High-quality rice for nutritious and delicious meals. (Brand: India Gate)'},
+    'Lentils': {'price': 70, 'remaining_qty': 300, 'weight': '1kg', 'type': 'Protein-rich lentils', 'brand': 'Tata Sampann', 'description': 'Protein-rich lentils for healthy and filling meals. (Brand: Tata Sampann)'},
+    'Cooking Oil': {'price': 100, 'remaining_qty': 200, 'weight': '1L', 'type': 'Healthy cooking oil', 'brand': 'Fortune', 'description': 'Healthy cooking oil for all types of cooking. (Brand: Fortune)'},
+    'Tea': {'price': 30, 'remaining_qty': 150, 'weight': '250g', 'type': 'Flavorsome tea', 'brand': 'Taj Mahal', 'description': 'Flavorsome tea for a refreshing and energizing drink. (Brand: Taj Mahal)'},
+    'Coffee': {'price': 100, 'remaining_qty': 100, 'weight': '500g', 'type': 'Rich and aromatic coffee', 'brand': 'Bru', 'description': 'Rich and aromatic coffee for a flavorful and stimulating drink. (Brand: Bru)'},
+    'Biscuits': {'price': 20, 'remaining_qty': 200, 'weight': '200g', 'type': 'Crunchy and tasty biscuits', 'brand': 'Parle-G', 'description': 'Crunchy and tasty biscuits for a quick and satisfying snack. (Brand: Parle-G)'},
+    'Chips': {'price': 30, 'remaining_qty': 150, 'weight': '100g', 'type': 'Savory and crispy chips', 'brand': 'Lays', 'description': 'Savory and crispy chips for a delicious and satisfying snack. (Brand: Lays)'}
 }
